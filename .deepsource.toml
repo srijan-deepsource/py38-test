@@ -25,3 +25,11 @@ enabled = true
 [[transformers]]
 name = "rustfmt"
 enabled = true
+
+[[transformers]]
+name = "black"
+enabled = true
+
+[[transformers]]
+name = "isort"
+enabled = true
