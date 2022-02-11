@@ -16,6 +16,5 @@ print(__("hurray!"))
 
 def foo_bar():
   """Fooo Bar!"""
-  
   print("FooBar")
   
