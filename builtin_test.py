@@ -12,3 +12,9 @@ builtinss = dir(__builtins__)
 print('_' in builtinss)
 
 print(__("hurray!"))
+
+
+def foo_bar():
+  """Fooo Bar!"""
+  print("FooBar")
+  
