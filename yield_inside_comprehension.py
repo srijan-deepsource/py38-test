@@ -1,3 +1,9 @@
-yum = [(yield x) for x in range(3)]
+yum = [
+    (yield x)
+    for x in range(3)
+]
 print(yum)
-tum = ((yield x) for x in range(3))
+tum = (
+    (yield x)
+    for x in range(3)
+)
