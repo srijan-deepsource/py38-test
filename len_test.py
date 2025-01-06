@@ -27,6 +27,9 @@ if len(SEQ3) > 0:
 if len(SEQ3) > 1:
     print(SEQ3)
 
+
 def something():
     if len(SEQ) > 0:
-        print("SEQ is greater than 0")
+        print(
+            "SEQ is greater than 0"
+        )
