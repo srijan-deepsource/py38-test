@@ -17,9 +17,13 @@ class C:
 
     def xyz(self, p):
         def somefunc(self, p):
-            def anotherfunc(self, p):
+            def anotherfunc(
+                self, p
+            ):
                 print(p)
+
             print(p)
+
         print(p)
 
 

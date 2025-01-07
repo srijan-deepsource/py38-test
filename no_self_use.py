@@ -16,10 +16,14 @@ class C:
         self.p(4321)
 
     def xyz(self, p):
-        def somefunc(self,p):
-            def anotherfunc(self, p):
+        def somefunc(self, p):
+            def anotherfunc(
+                self, p
+            ):
                 print(p)
+
             print(p)
+
         print(p)
 
 
